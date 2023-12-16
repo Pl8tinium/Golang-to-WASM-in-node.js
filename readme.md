@@ -24,5 +24,7 @@ The current normal go compiler does NOT support any way to compile go to wasm fo
 1. note: tinygo already integrates asyncify, no need to do that additional step when trying the asyncify example
 1. run one of the scripts in the package.json
 
+## Nice to know
 
-
+- asyncify only works with node.js version 16 (and maybe lower)
+- dont use a debugger with asyncify
